@@ -21,7 +21,6 @@ This starter is a lightly-opinionated take on a productive terminal-driven
 development environment based on my own preferences. However, it is trivial to
 customize to your liking both by removing and adding tools that you prefer.
 
-- The default editor is [JeezyVim](https://github.com/LGUG2Z/JeezyVim)
 - `win32yank` is used to ensure perfect bi-directional copying and pasting to
   and from Windows GUI applications and LunarVim running in WSL
 - The default shell is `fish`
