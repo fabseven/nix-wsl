@@ -1,13 +1,4 @@
 # nixos-wsl-starter
-
-This repository is intended to be a sane, batteries-included starter template
-for running a [JeezyVim](https://github.com/LGUG2Z/JeezyVim)-powered NixOS
-development environment on WSL.
-
-If you don't want to dig into NixOS too much right now, the only file you need
-to concern yourself with is [home.nix](home.nix). This is where you can add and
-remove binaries to your global `$PATH`.
-
 Go to [https://search.nixos.org](https://search.nixos.org/packages) to find the
 correct package names, though usually they will be what you expect them to be
 in other package managers.
@@ -20,11 +11,7 @@ If you want to update the versions of the available `unstable-packages`, run
 `nix flake update` to pull the latest version of the Nixpkgs repository and
 then apply the changes.
 
-Make sure to look at all the `FIXME` notices in the various files which are
-intended to direct you to places where you may want to make configuration
-tweaks.
-
-If you found this starter template useful, please consider
+Original owner: If you found this starter template useful, please consider
 [sponsoring](https://github.com/sponsors/LGUG2Z) and [subscribing to my YouTube
 channel](https://www.youtube.com/channel/UCeai3-do-9O4MNy9_xjO6mg?sub_confirmation=1).
 
